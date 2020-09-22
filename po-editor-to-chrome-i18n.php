@@ -3,7 +3,6 @@ include_once 'Console.php';
 
 const ARG_REGEX = '/\$(([a-z]+)|([A-Z]+))\$/';
 const DEFAULT_OUTPUT_FOLDER = 'output/';
-const DEFAULT_DATA_FOLDER = 'data/';
 
 if (count($argv) == 2 && !in_array('-h', $argv)) {
     $filePath = $argv[1];
